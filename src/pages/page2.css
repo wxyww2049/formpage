@@ -1,0 +1,166 @@
+.page2-mybody1 {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    max-height: 100%;
+    height: 100%;
+}
+img#page2-img1 {
+    width: 271px;
+}
+img#page2-img2 {
+    width: 237px;
+    margin: -55px;
+}
+img#page2-img3 {
+    width: 100%;
+}
+.page2-toppic {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0px;
+    align-items: center;
+    /* overflow: hidden; */
+    /* z-index: 1; */
+}
+.page2-bottompic {
+    position: absolute;
+    bottom: 0px;
+    /* overflow: hidden; */
+    width: 100%;
+    /* z-index: 10; */
+}
+
+@keyframes mymove2-1 {
+    from{
+     
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+   
+    }
+}
+
+@-moz-keyframes mymove2-1 /* Firefox */
+{
+    from{
+     
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+   
+    }
+}
+
+@-webkit-keyframes mymove2-1 /* Safari and Chrome */
+{
+    from{
+     
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+   
+    }
+}
+
+@-o-keyframes mymove2-1 /* Opera */
+{
+    from{
+     
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+   
+    }
+}
+
+
+@keyframes mymove2 {
+    from{
+     
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+   
+    }
+}
+
+@-moz-keyframes mymove2 /* Firefox */
+{
+    from{
+     
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+   
+    }
+}
+
+@-webkit-keyframes mymove2 /* Safari and Chrome */
+{
+    from{
+     
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+   
+    }
+}
+
+@-o-keyframes mymove2 /* Opera */
+{
+    from{
+     
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+   
+    }
+}
+
+img#page2-BR {
+    position: absolute;
+    right: -33px;
+    bottom: -35px;
+    min-width: 135px;
+    width: 36%;
+}
+img#page2-Br {
+    position: absolute;
+    right: 0px;
+    bottom: 46px;
+    width: 13%;
+    min-width: 50px;
+}
+img#page2-BL {
+    position: absolute;
+    left: -33px;
+    bottom: -35px;
+    min-width: 135px;
+    width: 36%;
+}
+img#page2-Bl {
+    position: absolute;
+    left: 0px;
+    bottom: 46px;
+    width: 13%;
+    min-width: 50px;
+}

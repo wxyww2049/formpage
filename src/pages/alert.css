@@ -1,0 +1,36 @@
+.alertmain {
+    width: 68%;
+    display: flex;
+    height: 19%;
+    background: white;
+    top: 35%;
+    position: absolute;
+    /* display: flex; */
+    flex-direction: column;
+    left: 16%;
+    border-radius: 23px;
+    align-content: flex-start;
+    align-items: center;
+}
+button#closebutton {
+    width: 81px;
+    display: flex;
+    position: absolute;
+    bottom: 21px;
+    height: 29px;
+    border-radius: 4px;
+    flex-direction: row;
+    font-size: 16px;
+    align-content: flex-start;
+    justify-content: center;
+}
+p#msg {
+    font-size: large;
+}
+.msg {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: center;
+    font-size: larger;
+}

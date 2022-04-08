@@ -1,0 +1,330 @@
+.textContainer {
+    opacity: 1;
+    display: flex;
+    color: white;
+    font-family: 'myhuawen';
+    font-size: larger;
+    position: absolute;
+    /* top: 11px; */
+    width: 90%;
+    /* left: 18px; */
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    /* margin-left: 16px; */
+    /* overflow: hidden; */
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* margin-top: 10px; */
+}
+@font-face {
+    font-family: myhuawen;
+    src: url('../../public/STXINGKA.TTF');
+}
+.page3-toppic {
+    width: 100%;
+    height: 100%;
+    background: url('../images/3.png'),no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.page3-mymainbody {
+    position: absolute;
+    
+    flex-direction: column;
+    align-items: center;
+    top: 0px;
+}
+.page3-Click {
+    width: 100%;
+    height: 100px;
+}
+img#page3-buttonl {
+    position: absolute;
+    left: 7px;
+    bottom: 10px;
+    width: 20%;
+}
+.page3-mybody2 {
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.page3-mybody {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+@keyframes mymove3-1 {
+    from{opacity: 1;}
+    to{opacity: 0;}
+}
+@-moz-keyframes mymove3-1 /* Firefox */
+{
+    from{opacity: 1;}
+    to{opacity: 0;}
+}
+
+@-webkit-keyframes mymove3-1 /* Safari and Chrome */
+{
+    from{opacity: 1;}
+    to{opacity: 0;}
+}
+
+@-o-keyframes mymove3-1 /* Opera */
+{
+    from{opacity: 1;}
+    to{opacity: 0;}
+}
+@keyframes mymove3 {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+@-moz-keyframes mymove3 /* Firefox */
+{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@-webkit-keyframes mymove3 /* Safari and Chrome */
+{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@-o-keyframes mymove3 /* Opera */
+{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+
+@keyframes mymove {
+    from {
+        filter: blur(0px);
+        -webkit-filter: blur(0px);
+        -moz-filter: blur(0px);
+        -ms-filter: blur(0px);
+        -o-filter: blur(0px);
+    }
+    to{
+        filter: blur(4px);
+        -webkit-filter: blur(4px);
+        -moz-filter: blur(4px);
+        -ms-filter: blur(4px);
+        -o-filter: blur(4px);
+    }
+}
+
+@-moz-keyframes mymove /* Firefox */
+{
+    from {
+        filter: blur(0px);
+        -webkit-filter: blur(0px);
+        -moz-filter: blur(0px);
+        -ms-filter: blur(0px);
+        -o-filter: blur(0px);
+    }
+    to{
+        filter: blur(4px);
+        -webkit-filter: blur(4px);
+        -moz-filter: blur(4px);
+        -ms-filter: blur(4px);
+        -o-filter: blur(4px);
+    }
+}
+
+@-webkit-keyframes mymove /* Safari and Chrome */
+{
+    from {
+        filter: blur(0px);
+        -webkit-filter: blur(0px);
+        -moz-filter: blur(0px);
+        -ms-filter: blur(0px);
+        -o-filter: blur(0px);
+    }
+    to{
+        filter: blur(4px);
+        -webkit-filter: blur(4px);
+        -moz-filter: blur(4px);
+        -ms-filter: blur(4px);
+        -o-filter: blur(4px);
+    }
+}
+
+@-o-keyframes mymove /* Opera */
+{
+    from {
+        filter: blur(0px);
+        -webkit-filter: blur(0px);
+        -moz-filter: blur(0px);
+        -ms-filter: blur(0px);
+        -o-filter: blur(0px);
+    }
+    to{
+        filter: blur(4px);
+        -webkit-filter: blur(4px);
+        -moz-filter: blur(4px);
+        -ms-filter: blur(4px);
+        -o-filter: blur(4px);
+    }
+}
+
+.querybody {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    animation:mymovequery 1s;
+    animation-fill-mode:forwards;
+    background-color: black;
+}
+@keyframes mymovequery {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 0.7;
+    }
+}
+
+@-moz-keyframes mymove3 /* Firefox */
+{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 0.7;
+    }
+}
+
+@-webkit-keyframes mymove3 /* Safari and Chrome */
+{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 0.7;
+    }
+}
+input#form2 {
+    width: 60px;
+}
+.sonForm {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    align-items: baseline;
+}
+.mainForm {
+    font-family: cursive;
+}
+.submitbutton {
+    display: flex;
+    flex-direction: row;
+    /* height: 30px; */
+    justify-content: center;
+    /* width: 75px; */
+}
+button#sub {
+    width: 79px;
+    height: 38px;
+    margin-top: 10px;
+    border-radius: 16px;
+}
+input.form {
+    text-align: center;
+    background: transparent;
+    width: 100%;
+    border-radius: 0px;
+    height: 36px;
+    border: 1px 0px 0px 0px;
+    border: 0px;
+    outline: none;
+    border-bottom: 2px solid white;
+    color: white;
+}
+@-o-keyframes mymove3 /* Opera */
+{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 0.7;
+    }
+}
+p#p1 {
+    animation: textmove 0.5s;
+    opacity: 0;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+p#p2 {
+    animation: textmove 0.5s;
+    opacity: 0;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+p#p3 {
+    animation: textmove 0.5s;
+    opacity: 0;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+p#p4 {
+    animation: textmove 0.5s;
+    opacity: 0;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+p#p5 {
+    animation: textmove 0.5s;
+    opacity: 0;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+p#p6 {
+    animation: textmove 0.5s;
+    opacity: 0;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+}
+p#p7 {
+    animation: textmove 0.5s;
+    opacity: 0;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+}
+div#p8 {
+    animation: textmove 0.5s;
+    opacity: 0;
+    /* animation-delay: 7s; */
+    animation-fill-mode: forwards;
+}
+
+@keyframes textmove {
+    from {opacity: 0;}
+    to{opacity: 1;}
+}
+
+@-moz-keyframes textmove /* Firefox */
+{
+    from {opacity: 0;}
+    to{opacity: 1;}
+}
+
+@-webkit-keyframes textmove /* Safari and Chrome */
+{
+    from {opacity: 0;}
+    to{opacity: 1;}
+}
+
+@-o-keyframes textmove /* Opera */
+{
+    from {opacity: 0;}
+    to{opacity: 1;}
+}
